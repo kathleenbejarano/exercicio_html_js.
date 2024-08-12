@@ -1,0 +1,34 @@
+form {
+    margin-top: 40px;
+}
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin: bottom 8px;
+    width: 100%;
+    resize: none;
+}
+button {
+    background-color: purple;
+    border: black;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: smaller;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blueviolet;
+}
+.success-message {
+    background-color: green;
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
+.error-message {
+    font-size:12px;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+}
